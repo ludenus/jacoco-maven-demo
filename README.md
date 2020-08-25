@@ -21,6 +21,13 @@ $ mvn clean verify; xdg-open target/site/jacoco/index.html
 
 
 ## build docker image
+
+with Dockerfile
 ```
-$ ./mvnw clean spring-boot:build-image -Dspring-boot.build-image.imageName=jacoco-maven-demo:0.0.1
+$ docker build -t jacoco-maven-demo:0.0.1 .
+```
+
+without Dockerfile 
+```
+$ ./mvn spring-boot:build-image -Dspring-boot.build-image.imageName=jacoco-maven-demo:0.0.1
 ```
