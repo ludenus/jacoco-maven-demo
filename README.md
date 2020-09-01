@@ -2,6 +2,9 @@
 
 Springboot project with jacoco code coverage tool configured via maven plugin
 
+## PREREQUISITES
+JDK 14
+
 ## how to run
 
 * run tests 
